@@ -1,8 +1,91 @@
-th, td{
+h1 {
+    text-align: center;
+    color: #0000c2;
+    padding-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #92aaee;
+    text-align: center;
+    padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+.table, th, td {
+    margin-top: 20px;
+    width: 20%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
     text-align: center;
 }
 
-h1 {
+
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.additional-text {
+    margin-left: 20px;
+}
+
+h3 {
+    padding-right: 1500px;;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+.table-container {
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.nav-item {
     text-align: right;
+    display: block;
+}
+
+
+nav {
+    display: flex;
+    position: fixed;
+}
+
+.nav-link {
+    text-align: center;
     color: red;
 }
