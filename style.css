@@ -96,12 +96,8 @@ nav {
     color: red;
 }
 
-img {
-    width: auto;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
+
+
 
 .background-container {
     width: 100%;
